@@ -15,19 +15,22 @@ html {
   background-size: cover;
 }
 
-.jumbotron1 {
-  color: rgb(255, 255, 255);
-  background-image: url("back.jpg");
+.back{
+  /* The image used */
+  background-image: url("./BG-2.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  height: 100vh;
   background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  -khtml-background-size: cover;
-  -ms-background-size: cover;
+}
+
+.jumbotron1 {
+  color: rgb(255, 255, 255);
+  height: 100vh;
 }
 
 .about {
